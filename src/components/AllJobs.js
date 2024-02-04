@@ -6,7 +6,7 @@ const AllJobs = () => {
 
   useEffect(() => {
     // Fetch data from the API
-    fetch('http://localhost:4002/latest-jobs')
+    fetch('https://job-hunter-bot.onrender.com/latest-jobs')
       .then(response => response.json())
       .then(data => setJobsData(data))
       .catch(error => console.error('Error fetching latest jobs:', error));

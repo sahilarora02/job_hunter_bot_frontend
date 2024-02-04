@@ -9,7 +9,7 @@ const SubscribeJobs = () => {
     setIsLoadingSubscribe(true);
 
     try {
-      const response = await fetch('http://localhost:4002/subscribe', {
+      const response = await fetch('https://job-hunter-bot.onrender.com/subscribe', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -38,7 +38,7 @@ const SubscribeJobs = () => {
     setIsLoadingUnsubscribe(true);
 
     try {
-      const response = await fetch('http://localhost:4002/unsubscribe', {
+      const response = await fetch('https://job-hunter-bot.onrender.com/unsubscribe', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
