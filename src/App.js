@@ -8,6 +8,7 @@ import ImproveResume from "./components/ImproveResume";
 import SubscribeJobs from "./components/SubscribeJobs";
 import JobSummary from "./components/JobSummary";
 import MainPage from "./components/MainPage";
+// require('dotenv').config()
 
 function App() {
   useEffect(()=>{
