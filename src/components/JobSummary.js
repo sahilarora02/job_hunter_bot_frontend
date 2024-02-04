@@ -50,7 +50,7 @@ const JobSummary = () => {
   return (
     <div style={styles.container}>
       <h2 style={styles.heading}>Job Description Summary</h2>
-      <textarea
+      <input
         rows="10"
         cols="50"
         value={jobDescription}

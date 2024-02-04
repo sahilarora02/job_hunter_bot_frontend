@@ -88,7 +88,7 @@ const ImproveResume = () => {
       <button onClick={handleImproveResume} disabled={isLoading} style={styles.button}>
         Improve Resume
       </button>
-      {/* {!improvedResume && <p style={styles.loading}>Loading...</p>} */}
+      {!improvedResume && <p style={styles.loading}>Loading...</p>}
       {improvedResume && (
         <div>
           <h3 style={styles.subHeading}>Improved Resume</h3>
