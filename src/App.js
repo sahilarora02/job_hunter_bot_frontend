@@ -1,7 +1,7 @@
 // App.js
 
 import React, { useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar"; // Assuming you have a Navbar component
 import AllJobs from "./components/AllJobs";
 import ImproveResume from "./components/ImproveResume";
