@@ -76,7 +76,7 @@ const ImproveResume = () => {
         <p style={styles.p}>
           Enter Job Description:
         </p>
-        <input
+        <textarea
           id="jobDescription"
           value={jobDescription}
           onChange={(e) => setJobDescription(e.target.value)}
